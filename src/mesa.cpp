@@ -94,8 +94,8 @@ struct wpe_loader_interface _wpe_loader_interface = {
         if (!std::strcmp(object_name, "_wpe_pasteboard_interface") && under_wayland)
             return &wayland_pasteboard_interface;
 
-        if (!std::strcmp(object_name, "_wpe_input_key_mapper_interface"))
-            return &libxkbcommon_input_key_mapper_interface;
+        // if (!std::strcmp(object_name, "_wpe_input_key_mapper_interface"))
+        //     return &libxkbcommon_input_key_mapper_interface;
 
         return nullptr;
     },

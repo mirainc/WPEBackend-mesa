@@ -33,8 +33,6 @@
 extern "C" {
 #endif
 
-extern struct wpe_input_key_mapper_interface libxkbcommon_input_key_mapper_interface;
-
 #ifdef __cplusplus
 }
 #endif
